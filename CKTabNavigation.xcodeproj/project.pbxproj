@@ -14,6 +14,10 @@
 		572D5763232B7DD30013451C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 572D5761232B7DD30013451C /* LaunchScreen.storyboard */; };
 		572D576E232B7DD40013451C /* CKTabNavigationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 572D576D232B7DD40013451C /* CKTabNavigationTests.swift */; };
 		572D5779232B7DD40013451C /* CKTabNavigationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 572D5778232B7DD40013451C /* CKTabNavigationUITests.swift */; };
+		572D5788232B7E2C0013451C /* CKTabNavigationCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 572D5787232B7E2C0013451C /* CKTabNavigationCollectionView.swift */; };
+		572D578A232B7E600013451C /* CKTabCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 572D5789232B7E600013451C /* CKTabCollectionViewCell.swift */; };
+		572D578C232B82590013451C /* String+CKExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 572D578B232B82590013451C /* String+CKExtension.swift */; };
+		57F0ACBE232C05A6001E980F /* UIColor+CKExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57F0ACBD232C05A6001E980F /* UIColor+CKExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +51,10 @@
 		572D5774232B7DD40013451C /* CKTabNavigationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CKTabNavigationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		572D5778232B7DD40013451C /* CKTabNavigationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CKTabNavigationUITests.swift; sourceTree = "<group>"; };
 		572D577A232B7DD40013451C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		572D5787232B7E2C0013451C /* CKTabNavigationCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CKTabNavigationCollectionView.swift; sourceTree = "<group>"; };
+		572D5789232B7E600013451C /* CKTabCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CKTabCollectionViewCell.swift; sourceTree = "<group>"; };
+		572D578B232B82590013451C /* String+CKExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+CKExtension.swift"; sourceTree = "<group>"; };
+		57F0ACBD232C05A6001E980F /* UIColor+CKExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+CKExtension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +105,7 @@
 		572D5757232B7DD20013451C /* CKTabNavigation */ = {
 			isa = PBXGroup;
 			children = (
+				572D5786232B7DEE0013451C /* CKTabNavigation */,
 				572D5758232B7DD20013451C /* AppDelegate.swift */,
 				572D575A232B7DD20013451C /* ViewController.swift */,
 				572D575C232B7DD20013451C /* Main.storyboard */,
@@ -123,6 +132,17 @@
 				572D577A232B7DD40013451C /* Info.plist */,
 			);
 			path = CKTabNavigationUITests;
+			sourceTree = "<group>";
+		};
+		572D5786232B7DEE0013451C /* CKTabNavigation */ = {
+			isa = PBXGroup;
+			children = (
+				572D578B232B82590013451C /* String+CKExtension.swift */,
+				572D5787232B7E2C0013451C /* CKTabNavigationCollectionView.swift */,
+				572D5789232B7E600013451C /* CKTabCollectionViewCell.swift */,
+				57F0ACBD232C05A6001E980F /* UIColor+CKExtension.swift */,
+			);
+			path = CKTabNavigation;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -256,7 +276,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				572D578C232B82590013451C /* String+CKExtension.swift in Sources */,
+				57F0ACBE232C05A6001E980F /* UIColor+CKExtension.swift in Sources */,
+				572D578A232B7E600013451C /* CKTabCollectionViewCell.swift in Sources */,
 				572D575B232B7DD20013451C /* ViewController.swift in Sources */,
+				572D5788232B7E2C0013451C /* CKTabNavigationCollectionView.swift in Sources */,
 				572D5759232B7DD20013451C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
